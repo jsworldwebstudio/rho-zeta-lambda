@@ -29,6 +29,10 @@ const nextConfig = {
   },
 
   // ...other config
+  images:{
+    domains:['localhost', 'pzl1906.org'],
+    unoptimized:true
+  }
 };
 
 export default nextConfig;
